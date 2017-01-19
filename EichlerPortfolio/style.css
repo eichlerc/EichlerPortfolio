@@ -1,0 +1,55 @@
+* {
+  font-family: helvetica, sans-serif;
+}
+
+body {
+  background: rgba(153, 50, 204, 0.3)/* Indigo background with 30% opacity */
+}
+
+/* Home */
+
+img {
+  border: 3px groove black;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+@font-face {
+  font-family: 'AbrilFatface-Regular';
+  src: url('Fonts/AbrilFatface-Regular.otf');
+}
+
+.abril {
+  font-family: 'AbrilFatface-Regular.otf';
+  color: white;
+}
+
+/* About */
+
+img {
+  border: 3px groove black;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+}
+
+#external {
+  color: teal;
+  text-decoration: underline;
+}
+
+/* Contact */
+
+input, textarea {
+  background-color: skyblue;
+}
+
+input[type="submit"] {
+  background-color:white;
+  color: skyblue;
+}
