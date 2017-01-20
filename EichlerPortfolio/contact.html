@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
+<html lang="en">
   <head>
-    <title> Chelsey's Portfolio </title>
+    <meta charset="UTF-8">
     <link href= "style.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="js.js"></script>
+    <title> Chelsey's Portfolio </title>
   </head>
   <body>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
+    <ul class="nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
     <h1>Contact</h1>
+    <form name="angry" class="angry">
+      <input type="text" name="yourname" placeholder="Enter Your Name" id="yourname">
+      <input type="submit" name="yournamesubmit" value="get angry" id="yournamesubmit" onclick="myfunction()">
+      <p id="formmessage"></p>
+    </form>
+
+
     <form action="http://www.example.com/review.php" method="get">
       <h3>Contact Form</h3>
       <label for ="first-name">First Name</label>
@@ -22,4 +34,8 @@
       <input type ="submit" value="Submit" />
     </form>
   </body>
+  <footer>
+  <p>Contact me if you have any quetions: <a href="mailto:chelsey.eichler@gmail.com">
+  Chelsey.Eichler@gmail.com</a>.</p>
+  </footer>
 </html>

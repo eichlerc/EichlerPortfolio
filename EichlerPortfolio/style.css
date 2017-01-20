@@ -3,8 +3,44 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background: rgba(153, 50, 204, 0.3)/* Indigo background with 30% opacity */
 }
+
+footer {
+  background-color: #21242B;
+  color: white;
+  text-align: center;
+  padding-top:30px;
+  padding-bottom:30px;
+  margin-top:30px;
+}
+
+
+.nav {
+  background-color: #21242B;
+  color:#ffffff;
+  list-style: none;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0px 25px 0 25px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav li a:hover {
+  color: #c1c1c1;
+}
+
+
 
 /* Home */
 
@@ -21,7 +57,19 @@ img {
 
 .abril {
   font-family: 'AbrilFatface-Regular.otf';
-  color: white;
+  color: #21242B;
+  text-align: center;
+}
+
+.center img  {
+  margin: 0 auto;
+  display: inline-block;
+
+}
+
+.center {
+  width:700px;
+  margin: 0 auto;
 }
 
 /* About */
